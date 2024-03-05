@@ -125,17 +125,17 @@ section {
 
 .book-now {
   background-color: #BFA3AF;
-  color: #333333; /* White text color */
-  border: none; /* Remove button border */
-  padding: 30px 30px 30px 30px; /* Adjust padding for the button */
-  border-radius: 50px; /* Make button oval-shaped */
-  font-size: 30px; /* Adjust font size */
-  cursor: pointer; /* Show pointer cursor on hover */
-  display: block; /* Make the button a block element to take full width */
-  margin: 20px auto; /* Center the button horizontally */
-  width: 200px; /* Set width of the button */
+  color: #333333;
+  border: none;
+  padding: 30px 30px 30px 30px;
+  border-radius: 50px; 
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  width: 200px; 
   height: 50px;
-  text-align: center; /* Center-align text */
+  text-align: center;
   margin-top: 40px;
   display: flex;
   align-items: center;
@@ -143,7 +143,7 @@ section {
 
 .book-now:hover {
   background-color: #ffffff; 
-  color: #333333; /* Text color */
+  color: #333333;
 }
 
 /*Styles box displaying the hours */
