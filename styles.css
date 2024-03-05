@@ -160,7 +160,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #BFA3AF;
-  color: #fff;
+  color: #333333;
   /* max-width: 300px; Adjust the width as needed */
   text-align: center;
   width: 60%;
