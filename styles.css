@@ -1,3 +1,4 @@
+/*styles website boyd*/
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@ body {
 header {
   background-color: #ffffff;
   text-align: center;
-  /* border-bottom: 1px solid #cccccc; */
   height: 270px;
   position: relative;
 
@@ -30,7 +30,7 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 40px; /* Adjust the right position as needed */
+  right: 40px;
 
 }
 .main-nav ul {
@@ -45,7 +45,6 @@ header {
 .main-nav ul li a {
   text-decoration: none;
   color: #333333;
-  /* font-weight: bold; */
   font-size: 30px;
 }
 .main-nav ul li a:hover {
@@ -66,22 +65,18 @@ section {
 }
 
 
-
-
-/*cover boxes*/
+/*starts styling of pink "welcome" box and image/hours box*/
 .content {
   display: flex;
   justify-content: stretch;
-  /* padding: 20px; */
 }
 
 .box {
   flex: 1;
-  /* padding: 20px; */
 }
 
 .welcome {
-  background-color: #F4CAF4; /* Pink color */
+  background-color: #F4CAF4;
   text-align: center;
   height: 728px;
   width: 50%;
@@ -90,20 +85,20 @@ section {
 
 .image-box {
   text-align: center;
-  background-image: url('./assets/nails.jpg'); /* Replace 'nails.jpg' with the path to your image */
-  background-size: cover; /* Cover the entire background area */
-  background-position: center; /* Center the background image */
-  width: 50%; /* Adjust the width of the box */
-  height: 728px; /* Set the height of the box to make it a square */
+  background-image: url('./assets/nails.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 728px;
   position: relative;
 }
 
 .box.welcome {
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Arrange children vertically */
-  justify-content: center; /* Vertically center children */
-  align-items: center; /* Horizontally center children */
-  text-align: center; /* Center-align text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-family: 'Inter', sans-serif;
   text-decoration: none;
 
@@ -151,9 +146,7 @@ section {
   color: #333333; /* Text color */
 }
 
-/*hours box */
-
-
+/*Styles box displaying the hours */
 .business-hours {
   position: absolute;
   top: 50%;
@@ -161,23 +154,19 @@ section {
   transform: translate(-50%, -50%);
   background-color: #BFA3AF;
   color: #333333;
-  /* max-width: 300px; Adjust the width as needed */
   text-align: center;
   width: 60%;
   height: 365px;
   font-size: 30px;
-  line-height: 0.5; /* Adjust line height to make space between lines smaller */
+  line-height: 0.5;
 
 }
 
 
-/*begins our services */
-/* .services {
-  padding: 50px 0;
-} */
+/*begins services section styling */
 
 .services {
-  text-align: center; /* Center-align the services section */
+  text-align: center; 
   font-family: 'Inter', sans-serif;
 
 }
@@ -185,30 +174,30 @@ section {
 .service-description {
   display: flex;
   flex-wrap: wrap; /* Allow services to wrap to the next line if necessary */
-  justify-content: center; /* Center the services horizontally */
+  justify-content: center;
 }
 
 .service {
   flex: 0 1 calc(30% - 40px); /* Adjust the width of each service and add margin */
   padding: 20px;
-  margin: 20px; /* Add margin around each service */
+  margin: 20px;
 }
 
 .services h2 {
-  font-size: 48px; /* Set the font size for the main heading */
-  color: #BFA3AF; /* Set the color of the main heading */
-  margin-bottom: 20px; /* Add space below the main heading */
+  font-size: 48px;
+  color: #333333;
+  margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
 }
 
 .service h3 {
-  font-size: 48px; /* Adjust font size for service headings */
+  font-size: 48px;
   color: #333333;
   margin-bottom: 10px;
 }
 
 .service p {
-  font-size: 30px; /* Adjust font size for service descriptions */
+  font-size: 30px;
   color: #333333;
   margin-left: 10px;
   margin-right: 10px;
@@ -227,40 +216,40 @@ section {
   height: 130px;
   text-align: center;
   position: relative;
-  top: -20px; /* Adjust the value to move the button up or down */
-  margin: 0 auto; /* Center horizontally */
+  top: -20px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .see-menu:hover {
   background-color: #F4CAF4; /* Pink background color on hover */
-  color: #333333; /* Text color */
+  color: #333333;
 }
 
-/*about us*/
+/*starts about us section styling*/
 
 .about {
-  padding: 20px; /* Add padding around the section */
-  text-align: center; /* Center-align text */
+  padding: 20px;
+  text-align: center; 
   font-family: 'Inter', sans-serif;
   margin-bottom: 50px;
 
 }
 
 .about h2 {
-  font-size: 48px; /* Set the font size for the main heading */
-  color: #BFA3AF; /* Set the color of the main heading */
-  margin-bottom: 20px; /* Add space below the main heading */
+  font-size: 48px; 
+  color: #333333; 
+  margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
 
 }
 
 .about p {
-  font-size: 30px; /* Set the font size for subheadings */
-  color: #333333; /* Set the color of subheadings */
-  margin-bottom: 10px; /* Add space below each subheading */
-  margin-left: 50px; /* Add space below each subheading */
-  margin-right: 50px; /* Add space below each subheading */
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -277,14 +266,14 @@ section {
   height: 130px;
   text-align: center;
   position: relative;
-  top: -20px; /* Adjust the value to move the button up or down */
-  margin: 0 auto; /* Center horizontally */
+  top: -20px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .story:hover {
   background-color: #F4CAF4; /* Pink background color on hover */
-  color: #333333; /* Text color */
+  color: #333333;
 }
 
 @media only screen and (max-width: 1061px) {
