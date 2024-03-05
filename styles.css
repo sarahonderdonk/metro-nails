@@ -1,0 +1,531 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+}
+header {
+  background-color: #ffffff;
+  text-align: center;
+  /* border-bottom: 1px solid #cccccc; */
+  height: 270px;
+  position: relative;
+
+}
+#logo {
+  width: 550px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.mobile-book-now{
+  display: none;
+}
+
+/*menu bar style */
+.main-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 40px; /* Adjust the right position as needed */
+
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: #333333;
+  /* font-weight: bold; */
+  font-size: 30px;
+}
+.main-nav ul li a:hover {
+  color: #F4CAF4;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-nav {
+  display: none;
+  
+}
+
+.mobile-options {
+  display: none;
+}
+
+
+
+
+/*cover boxes*/
+.content {
+  display: flex;
+  justify-content: stretch;
+  /* padding: 20px; */
+}
+
+.box {
+  flex: 1;
+  /* padding: 20px; */
+}
+
+.welcome {
+  background-color: #F4CAF4; /* Pink color */
+  text-align: center;
+  height: 728px;
+  width: 50%;
+}
+
+
+.image-box {
+  text-align: center;
+  background-image: url('./assets/nails.jpg'); /* Replace 'nails.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire background area */
+  background-position: center; /* Center the background image */
+  width: 50%; /* Adjust the width of the box */
+  height: 728px; /* Set the height of the box to make it a square */
+  position: relative;
+}
+
+.box.welcome {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Vertically center children */
+  align-items: center; /* Horizontally center children */
+  text-align: center; /* Center-align text */
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+
+}
+
+.box.welcome h2 {
+  margin-bottom: 40px; /* Add margin below the h2 element */
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333333;
+
+}
+
+.box.welcome h3 {
+  margin: 5px 0; /* Add margin to the top and bottom of each h3 element */
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333333;
+
+
+}
+
+.book-now {
+  background-color: #BFA3AF;
+  color: #333333; /* White text color */
+  border: none; /* Remove button border */
+  padding: 30px 30px 30px 30px; /* Adjust padding for the button */
+  border-radius: 50px; /* Make button oval-shaped */
+  font-size: 30px; /* Adjust font size */
+  cursor: pointer; /* Show pointer cursor on hover */
+  display: block; /* Make the button a block element to take full width */
+  margin: 20px auto; /* Center the button horizontally */
+  width: 200px; /* Set width of the button */
+  height: 50px;
+  text-align: center; /* Center-align text */
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.book-now:hover {
+  background-color: #ffffff; 
+  color: #333333; /* Text color */
+}
+
+/*hours box */
+
+
+.business-hours {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #BFA3AF;
+  color: #fff;
+  /* max-width: 300px; Adjust the width as needed */
+  text-align: center;
+  width: 60%;
+  height: 365px;
+  font-size: 30px;
+  line-height: 0.5; /* Adjust line height to make space between lines smaller */
+
+}
+
+
+/*begins our services */
+/* .services {
+  padding: 50px 0;
+} */
+
+.services {
+  text-align: center; /* Center-align the services section */
+  font-family: 'Inter', sans-serif;
+
+}
+
+.service-description {
+  display: flex;
+  flex-wrap: wrap; /* Allow services to wrap to the next line if necessary */
+  justify-content: center; /* Center the services horizontally */
+}
+
+.service {
+  flex: 0 1 calc(30% - 40px); /* Adjust the width of each service and add margin */
+  padding: 20px;
+  margin: 20px; /* Add margin around each service */
+}
+
+.services h2 {
+  font-size: 48px; /* Set the font size for the main heading */
+  color: #BFA3AF; /* Set the color of the main heading */
+  margin-bottom: 20px; /* Add space below the main heading */
+  font-family: 'Inter', sans-serif;
+}
+
+.service h3 {
+  font-size: 48px; /* Adjust font size for service headings */
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 30px; /* Adjust font size for service descriptions */
+  color: #333333;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.see-menu {
+  background-color: #BFA3AF;
+  color: #333333;
+  border: none;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  position: relative;
+  top: -20px; /* Adjust the value to move the button up or down */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
+}
+
+.see-menu:hover {
+  background-color: #F4CAF4; /* Pink background color on hover */
+  color: #333333; /* Text color */
+}
+
+/*about us*/
+
+.about {
+  padding: 20px; /* Add padding around the section */
+  text-align: center; /* Center-align text */
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 50px;
+
+}
+
+.about h2 {
+  font-size: 48px; /* Set the font size for the main heading */
+  color: #BFA3AF; /* Set the color of the main heading */
+  margin-bottom: 20px; /* Add space below the main heading */
+  font-family: 'Inter', sans-serif;
+
+}
+
+.about p {
+  font-size: 30px; /* Set the font size for subheadings */
+  color: #333333; /* Set the color of subheadings */
+  margin-bottom: 10px; /* Add space below each subheading */
+  margin-left: 50px; /* Add space below each subheading */
+  margin-right: 50px; /* Add space below each subheading */
+  font-family: 'Inter', sans-serif;
+}
+
+.story {
+  background-color: #BFA3AF;
+  color: #333333;
+  border: none;
+  border-radius: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  width: 200px;
+  height: 130px;
+  text-align: center;
+  position: relative;
+  top: -20px; /* Adjust the value to move the button up or down */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
+}
+
+.story:hover {
+  background-color: #F4CAF4; /* Pink background color on hover */
+  color: #333333; /* Text color */
+}
+
+@media only screen and (max-width: 1061px) {
+
+  #logo {
+    width: 400px; /* Adjust logo width for smaller screens */
+  }
+
+  .welcome {
+    width: 80%; /* Adjust welcome box width for smaller screens */
+  }
+
+  /* .image-box {
+    display: none; /* Hide image box on smaller screens 
+  } */
+
+  .image-box {
+    width: 80%; /* Adjust the width of the box */
+    /* height: 0px; Set the height of the box to make it a square */
+    position: relative;
+    
+  }
+  .business-hours {
+    width: 80%; /* Adjust business hours width for smaller screens */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-nav {
+    display: none; /* Hide navigation bar on smaller screens */
+  }
+
+  .mobile-nav {
+    display: flex; /* Show mobile navigation */
+    background-color: #ffffff;
+    
+  }
+
+  .ham-menu {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 5%; /* Adjust the percentage as needed */
+    transform: translateY(-50%);
+  }
+
+  .ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: #F4CAF4;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ham-menu span:nth-child(1) {
+    top: 25%
+  }
+
+  .ham-menu span:nth-child(3) {
+    top: 75%;
+  }
+  
+  .mobile-options {
+    display: none;
+    background-color: #F4CAF4;
+    height: 70%;
+    width: 25%;
+    position: fixed;
+    top: 25%;
+    /* right: -10px; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: .3s ease;
+    z-index: 999;
+  }
+
+  .mobile-options ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0; /* Optionally remove default padding */
+    margin: 0; /* Optionally remove default margin */
+  }
+  
+  .mobile-options li {
+    margin-bottom: 10px; /* Add space between each list item */
+    color: FFFFFF; /* Set text color to white */
+  }
+  .mobile-options.active {
+    display: flex;
+    right: 10%;
+  }
+
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 744px) {
+  header {
+    background-color: #ffffff;
+    text-align: center;
+    /* border-bottom: 1px solid #cccccc; */
+    height: 450px;
+    position: relative;
+  
+  }
+
+  #logo {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 25%; /* Place the logo at the vertical center of the header */
+    left: 50%; /* Place the logo at the horizontal center of the header */
+    transform: translate(-50%, -50%); /* Move the logo back by 50% of its own width and height */
+}
+
+  .ham-menu {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 50%; /* Place the hamburger menu at the vertical center of the header */
+    right: 50%; /* Place the hamburger menu at the horizontal center of the header */
+    transform: translate(50%, -50%); /* Move the hamburger menu forward by 50% of its own width and back by 50% of its height */
+  }
+
+  .mobile-options {
+    display: none;
+    background-color: #F4CAF4;
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 0; /* Align the box to the left */
+    width: 100%;
+    height: 50%;
+    z-index: 999;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .mobile-options.active {
+    display: flex;
+    right: 62.5%;
+  }
+
+  .book-now {
+    display: none;
+  }
+
+  .mobile-book-now {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: #BFA3AF;
+    color: #333333; /* White text color */
+    border: none; /* Remove button border */
+    padding: 30px; 
+    border-radius: 50px; /* Make button oval-shaped */
+    font-size: 30px; /* Adjust font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    width: 200px; /* Set width of the button */
+    height: 50px;
+    text-align: center; /* Center-align text */
+    position: absolute; /* Position the button */
+    bottom: 15%; /* Place the button at the bottom third of the header */
+    left: 50%; /* Place the button at the horizontal center of the header */
+    transform: translateX(-50%); /* Move the button back by 50% of its own width */
+    z-index: 998; /* Ensure the button appears above other content */
+
+  }
+
+  .mobile-book-now:hover {
+    background-color: #FAE4FA; 
+    color: #333333; /* Text color */
+  }
+
+  .content {
+    display: block; /* Change to block layout for smaller screens */
+    height: auto;
+    padding: 0;
+  }
+
+  .welcome {
+    width: calc(100% - 40px);
+    height: 400px;
+    display: flex; /* Add flexbox display */
+    flex-direction: column; /* Set flex direction to column */
+    justify-content: flex-start; /* Align items at the start of the cross axis */
+    padding: 0 20px; /* Add 20px padding on both left and right sides */
+
+  }
+
+  .image-box {
+    width: 100%; 
+    height: 400px; 
+    background-color: #FAE4FA;
+    background-position: center; 
+  }
+
+  .business-hours {
+    position: absolute;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust the width as needed */
+    text-align: center; /* Center-align text */
+    line-height: 1; /* Increase the line height */
+  }
+
+  .business-hours h3 {
+    font-size: 48px; /* Adjust the font size for the heading */
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+
+  .business-hours p {
+    font-size: 30px; /* Adjust the font size for paragraphs */
+    margin: 10px 0; /* Add margin to the top and bottom of paragraphs */
+  }
+
+  .services {
+    margin-top: 20px; /* Add margin to the top of the services section */
+  }
+  
+
+}
